@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  margin:0px;
+  padding: 0px;
+
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app-container {
+  display: flex; /* Mengatur layout flex */
+  height: 100vh; /* Membuatnya setinggi layar */
+}
+
+.header { /* Anda bisa menyesuaikan ini sesuai dengan penamaan kelas di Header */
+  min-width: 250px; /* Atur lebar navbar */
+}
+
+.content-container {
+  flex: 1; /* Konten di sebelah kanan mengambil sisa ruang */
+  padding: 20px; /* Beri padding pada konten */
+  background-color: #f8f9fa; /* Warna latar belakang untuk konten */
+  overflow-y: auto; /* Menambahkan scroll jika konten terlalu banyak */
+}
