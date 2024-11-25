@@ -1,0 +1,29 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJSYWloYW4iLCJlbWFpbCI6InJhaWhhbkBnbWFpbC5jb20iLCJpYXQiOjE3Mjg4OTA2MTYsImV4cCI6MTcyODg5MDYzNn0.8Ylh1D72a2w1arL0knnVqe_BctxAkA3LNXXyFvRcATg
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Raihan",
+    "email": "raihan@gmail.com",
+    "password": "raihan123",
+    "confPassword": "raihan123"
+}
+
+###
+POST http://localhost:5000/categories
+Content-Type: application/json
+
+{
+    "nama": "Raihan",
+    "deskripsi": "Aku maou"
+}
+
+POST http://localhost:5000/categories
+Content-Type: application/json
+
+{
+    
+}
